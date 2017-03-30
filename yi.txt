@@ -24,6 +24,41 @@ ssh-keygen -t rsa -C "15168302217@163.com"
 
 在默认用户admin文件下有ssh 文件填入相应地方
 
+git remote add origin git@github.com:duxiaobin1/learngit.git；//github是服务器得名 duxiaobin1是操作名  learngit是库的名字
+git push -u origin master //第一次把项目推送到远程分支
+git push -u origin master //把项目推送到远程分支
+
+git clone git@github.com:michaelliao/gitskills.git /从远程clone项目
+
+
+创建分支
+git branch feizhi //创建分支
+git checkout feizhi //切换分支
+git branch //查看当前分支
+先切换到主干
+git checkout master 
+git merge feizhi
+吧feizhi合并到主干
+
+git branch -d feizhi
+删除分支
+
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
+
+
+
+
 
 
 
