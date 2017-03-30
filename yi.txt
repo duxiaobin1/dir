@@ -56,6 +56,10 @@ git branch -d feizhi
 
 删除分支：git branch -d <name>
 
+删除未合并分支  git  branch -D 分知名
+
+git push origin dev 推送到远程分支
+
 
 
 
