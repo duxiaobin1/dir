@@ -1,1 +1,30 @@
-hahah 
+git init //创建仓库
+git add weijian.txt //把修改的内容添加暂存区
+git commit —m "注释" //提交
+git status //仓库的状态
+git diff //修改了那写内容
+git log  //查看历史版本
+git reset --hard Head //回退命令
+git rellog //所有命令
+git reset --hard commit_id //切换到不同的版本
+git checkout --weijian.txt   //撤销修改
+git rm wweijian.txt //删除
+
+建立远程库链接github
+
+打开git bash here
+cd ~/.ssh/
+假如没有要新建，有就继续
+git config --global user.name "duxiaobin"  
+
+git config --global user.email "151683602217@163.com"
+
+ssh-keygen -t rsa -C "15168302217@163.com"
+得到id_rsa和id_rsa.pub
+
+在默认用户admin文件下有ssh 文件填入相应地方
+
+
+
+
+
